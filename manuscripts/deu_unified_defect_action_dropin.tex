@@ -1,0 +1,95 @@
+% -----------------------------------------------------------------------------
+% Drop-in subsection: Unified defect action
+% Suggested insertion: Section ``Theory: generative bandwidth relativity'',
+% immediately after Eq. \eqref{eq:rest-lapse} and before the paragraph beginning
+% ``The spatial source law is distinct.''
+% -----------------------------------------------------------------------------
+% Optional preamble helpers, if you want named commands:
+% \newcommand{\Xiang}{\Xi}
+% \newcommand{\Urad}{\Upsilon}
+
+\subsection{Unified defect action: lapse and holonomy as projections}\label{sec:unified-defect-action}
+
+Equations~\eqref{eq:unified}--\eqref{eq:rest-lapse} describe the
+\emph{temporal} projection of a defect: a persistent unresolved region removes
+ordinary update capacity from the active frontier, producing a lapse
+$\alpha=1-\Omega$.  The spatial experiments show that this lapse projection is
+not, by itself, identical to spatial holonomy.  A pure $1\to3$ refinement sink can
+produce a useful-update lapse while failing to reduce the refinement-weighted
+circumference of exterior annuli.  Conversely, an explicit sector or linkage
+change is visible as holonomy in the $q$-sector positive control.  The more
+natural unified object is therefore not a single scalar curvature variable, but
+a local \emph{generative defect action} whose distinct projections are observed
+as lapse, radial throat response, and angular holonomy.
+
+Let $\mathcal{D}_m(R)$ denote the defect action accumulated inside a weighted
+radius $R$.  Operationally, $\mathcal{D}_m$ is the local count of distinction
+operations and linkage opportunities made unavailable to ordinary vacuum
+propagation by a persistent defect.  We write three projections:
+\begin{align}
+  \Omega(R) &= P_\tau[\mathcal{D}_m(R)] && \text{temporal lapse / update starvation},\\
+  \Upsilon(R) &= P_R[\mathcal{D}_m(R)] && \text{radial throat or interior stretch},\\
+  \Xi(R) &= P_\theta[\mathcal{D}_m(R)]
+     =1-\frac{C_m(R)}{C_0(R)} && \text{angular holonomy / circumference pinch}.
+\end{align}
+Here $C_0(R)$ is the matched vacuum circumference and $C_m(R)$ is the measured
+circumference in the defect run, using the same refinement-weighted metric.  In
+a perfect $q$-sector disclination,
+\begin{equation}
+  \Xi = \frac{6-q}{6},
+  \qquad
+  \frac{C_q}{C_6}=\frac{q}{6},
+\end{equation}
+which is the discrete positive-control version of the conical holonomy of
+$2+1$-dimensional gravity~\cite{DeserJackiwTHooft1984}.
+
+The corresponding effective axisymmetric $2+1$D line element can be written as
+\begin{equation}\label{eq:deu-projected-metric}
+  ds_{\rm DEU}^2
+  =-[1-\Omega(R)]^2dt^2
+  +[1+\Upsilon(R)]^2dR^2
+  +[1-\Xi(R)]^2R^2d\theta^2 .
+\end{equation}
+For a moving probe this gives
+\begin{equation}\label{eq:deu-probe-propertime}
+  \frac{d\tau}{dt}
+  =\sqrt{
+     [1-\Omega(R)]^2
+     -[1+\Upsilon(R)]^2\dot R^{\,2}
+     -[1-\Xi(R)]^2 R^2 \dot\theta^{\,2}}
+  .
+\end{equation}
+In the no-holonomy, locally flat limit $\Upsilon=\Xi=0$ and
+$v^2=\dot R^{\,2}+R^2\dot\theta^{\,2}$, Eq.~\eqref{eq:deu-probe-propertime}
+reduces to the bandwidth clock law
+\begin{equation}
+  \frac{d\tau}{dt}=\sqrt{(1-\Omega)^2-v^2}.
+\end{equation}
+Thus the lapse equation is the temporal projection of the same defect action
+whose angular projection is measured by $\Xi$.
+
+The simulations suggest that $\Omega$ and $\Xi$ should not be equated as a
+pointwise identity.  Instead, $\Omega$ is a comparatively continuous bandwidth
+projection, while $\Xi$ is a quantized or thresholded holonomy projection.  A
+useful phenomenological form is
+\begin{equation}\label{eq:stitch-threshold}
+  \Xi(\Omega)
+  =\frac{1}{6}
+   \left\lfloor
+     \frac{\Omega-\Omega_c}{\Delta\Omega_{\rm stitch}}
+   \right\rfloor_+,
+\end{equation}
+where $\Omega_c$ is the topological slack that the local foam can absorb before
+an exterior sector is lost, and $\Delta\Omega_{\rm stitch}$ is the additional
+defect action required to drop another effective sector.  In a smooth weak-field
+regime one may observe an approximate proportionality $\Xi\simeq\kappa\Omega$,
+but in the native discrete regime the holonomy channel is expected to exhibit
+stair-step behavior.
+
+This formulation reconciles the two main Layer~3 findings.  A refinement sink is
+a Zeno sponge: it has a lapse projection $\Omega>0$ but can leave $\Xi\simeq0$ in
+the exterior refinement-weighted metric.  A topology stitch activates the angular
+projection $\Xi>0$.  When $\Xi>0$ occurs together with radial/interior response
+$\Upsilon>0$, the resulting geometry is not a pure cone but a throat: the
+exterior circumference is pinched while the interior weighted area can remain
+large or even inflate.

@@ -1,0 +1,13 @@
+run,m_defects,Omega_useful_rate_mean,Omega_useful_rate_sem,positive_frac,forced_defect_splits_mean
+cap256_3k_5seeds_fixed_target,0,0.0,0.0,0.0,0.0
+cap256_3k_5seeds_fixed_target,2,0.041373,0.014842,0.8,43.8
+cap256_3k_5seeds_fixed_target,4,0.096729,0.012807,1.0,92.0
+cap256_3k_5seeds_fixed_target,8,0.178942,0.027313,1.0,198.8
+cap512_10k_3seeds_fixed_target,0,0.0,0.0,0.0,0.0
+cap512_10k_3seeds_fixed_target,4,0.023504,0.006352,1.0,110.666667
+cap512_10k_3seeds_fixed_target,8,0.06451,0.015726,1.0,230.666667
+cap512_10k_3seeds_fixed_target,16,0.137962,0.01112,1.0,498.333333
+cap256_epoch37_5seeds_fixed_epoch,0,0.0,0.0,0.0,0.0
+cap256_epoch37_5seeds_fixed_epoch,2,0.058829,0.017554,1.0,46.0
+cap256_epoch37_5seeds_fixed_epoch,4,0.092428,0.019907,1.0,91.0
+cap256_epoch37_5seeds_fixed_epoch,8,0.196925,0.046332,1.0,179.0

@@ -1,0 +1,56 @@
+{
+  "core_topology_stitch_holonomy_code": [
+    "helpers/DEU_GR_Experiment_01Q_coherent_topology_stitch_layer3.py",
+    "helpers/DEU_GR_Experiment_01R_anchor_locked_stitch_snap_audit.py",
+    "helpers/DEU_GR_Experiment_01S_exterior_boundary_goldilocks_audit.py",
+    "helpers/DEU_GR_Experiment_01P_layer3_holonomy_extraction.py",
+    "helpers/DEU_GR_Experiment_01N_topological_disclination_holonomy.py"
+  ],
+  "lapse_and_bandwidth_code": [
+    "helpers/DEU_GR_Experiment_01L_fixed_epoch_anchor_experiment.py",
+    "helpers/DEU_GR_Experiment_01M_lapse_useful_budget.py",
+    "helpers/DEU_GR_Experiment_01N_radial_lapse_profile.py",
+    "helpers/DEU_GR_Experiment_01O_radial_lapse_residual.py"
+  ],
+  "metric_depth_code": [
+    "helpers/DEU_GR_Experiment_01H_depth_metric_repair.py"
+  ],
+  "saved_gr_sweep_outputs_m_2_4_8_16": [
+    "data/layer3_anchor_locked_support_failure.csv",
+    "data/layer3_exterior_boundary_throat.csv",
+    "data/layer3_exterior_boundary_throat_verdict.csv",
+    "data/layer3_refinement_sink_null.csv",
+    "data/layer3_qsector_positive_control.csv",
+    "data/layer2_useful_lapse_summary.csv",
+    "data/layer2_radial_lapse_residual.csv"
+  ],
+  "notebooks": [
+    "notebooks/DEU_GR_Topology_Stitch_Handoff_Runbook.ipynb",
+    "notebooks/DEU_GR_LIGO_Complete_Analysis.ipynb",
+    "notebooks/DEU_GR_LIGO_Complete_Analysis_executed.ipynb",
+    "notebooks/DEU_GR_Experiment_01B_SR_Audit_Bridge.ipynb",
+    "notebooks/DEU_GR_Experiment_01_Quantized_Conical_Deficits.ipynb",
+    "notebooks/DEU_SR_Fingerprint_Audit.ipynb"
+  ],
+  "native_src_snapshot": [
+    "src_snapshot/src/deu_exp456_minimal.py",
+    "src_snapshot/src/deu_exp456_overflow_patch.py",
+    "src_snapshot/src/deu_sr_fingerprint.py",
+    "src_snapshot/DEU_metric_adapter_debug_bundle.zip"
+  ],
+  "missing_or_not_found_in_this_chat_archive": [
+    "S/I/G ablation notebook establishing 288 and Icrit -- not present in uploaded/session files"
+  ],
+  "suggested_local_search_terms_for_missing_SIG_ablation": [
+    "*SIG*ablat*.ipynb",
+    "*S_I_G*ablat*.ipynb",
+    "*S-I-G*ablat*.ipynb",
+    "*Icrit*.ipynb",
+    "*I_crit*.ipynb",
+    "*288*.ipynb",
+    "*registry*ablat*.ipynb",
+    "*carrier*ablat*.ipynb",
+    "*interface*critical*.ipynb",
+    "*S*I*G*.ipynb"
+  ]
+}

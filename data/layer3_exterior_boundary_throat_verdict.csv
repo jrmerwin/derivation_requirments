@@ -1,0 +1,2 @@
+verdict,n_core_rows,n_high_rows,n_cone_high_rows,n_throat_high_rows,n_unsupported_high_rows
+EXTERIOR_BOUNDARY_THROAT_SIGNAL,12,9,0,6,0
